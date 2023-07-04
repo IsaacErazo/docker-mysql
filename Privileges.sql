@@ -15,7 +15,7 @@ GRANT SELECT ON demo.* to ReadOnly;
 GRANT SELECT, INSERT, UPDATE, DELETE ON demo.* to Developer;
 
 GRANT ReadOnly TO dummy;
-GRANT ReadOnly TO jaylen;
+GRANT Developer TO jaylen;
 
 SET DEFAULT ROLE ALL TO dummy;
 SET DEFAULT ROLE ALL TO jaylen;
